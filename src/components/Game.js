@@ -42,7 +42,7 @@ const Game = () => {
         setXisNext(false);
       }
     });
-  }, [history, xIsNext]);
+  }, [squares]);
 
   const handleClick = (i) => {
     let tempSquares = squares.slice(0);
